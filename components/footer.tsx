@@ -6,7 +6,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <a href="#" className="flex items-center gap-2 mb-4 cursor-pointer">
               <svg
-                className="w-8 h-8 text-[var(--secondary)]"
+                className="w-8 h-8 text-secondary"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -18,7 +18,7 @@ export default function Footer() {
                   d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
                 />
               </svg>
-              <span className="text-xl font-bold">Wanderlust</span>
+              <span className="text-xl font-bold">Salmeen Travel</span>
             </a>
             <p className="text-white/60 mb-6 max-w-xs">
               Discover the world with us. Curated travel experiences that create
@@ -27,7 +27,7 @@ export default function Footer() {
             <div className="flex gap-3">
               <a
                 href="#"
-                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center cursor-pointer hover:bg-[var(--secondary)] transition-colors"
+                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center cursor-pointer hover:bg-secondary transition-colors"
                 aria-label="facebook"
               >
                 <svg
@@ -40,7 +40,7 @@ export default function Footer() {
               </a>
               <a
                 href="#"
-                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center cursor-pointer hover:bg-[var(--secondary)] transition-colors"
+                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center cursor-pointer hover:bg-secondary transition-colors"
                 aria-label="instagram"
               >
                 <svg
@@ -53,7 +53,7 @@ export default function Footer() {
               </a>
               <a
                 href="#"
-                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center cursor-pointer hover:bg-[var(--secondary)] transition-colors"
+                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center cursor-pointer hover:bg-secondary transition-colors"
                 aria-label="twitter"
               >
                 <svg
@@ -66,7 +66,7 @@ export default function Footer() {
               </a>
               <a
                 href="#"
-                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center cursor-pointer hover:bg-[var(--secondary)] transition-colors"
+                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center cursor-pointer hover:bg-secondary transition-colors"
                 aria-label="youtube"
               >
                 <svg
@@ -82,46 +82,23 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4">Destinations</h4>
             <ul className="space-y-2">
-              <li>
-                <a
-                  href="#"
-                  className="text-white/60 hover:text-[var(--secondary)] transition-colors cursor-pointer"
-                >
-                  Europe
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-white/60 hover:text-[var(--secondary)] transition-colors cursor-pointer"
-                >
-                  Asia
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-white/60 hover:text-[var(--secondary)] transition-colors cursor-pointer"
-                >
-                  Americas
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-white/60 hover:text-[var(--secondary)] transition-colors cursor-pointer"
-                >
-                  Africa
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-white/60 hover:text-[var(--secondary)] transition-colors cursor-pointer"
-                >
-                  Oceania
-                </a>
-              </li>
+              {[
+                ["Europe", "#"],
+                ["Asia", "#"],
+                ["North America", "#"],
+                ["South America", "#"],
+                ["Africa", "#"],
+                ["Australia", "#"],
+              ].map((destination) => (
+                <li key={destination[0]}>
+                  <a
+                    href={destination[1]}
+                    className="text-white/60 hover:text-secondary transition-colors cursor-pointer"
+                  >
+                    {destination[0]}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
           <div>
