@@ -4,17 +4,16 @@ export default function WhyChooseUs() {
       <section className="py-12 sm:py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-10 sm:mb-16">
-            <span className="text-sm font-medium text-[var(--secondary)] uppercase tracking-wider">
+            <span className="text-sm font-medium text-secondary uppercase tracking-wider">
               Why Choose Us
             </span>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-2">
-              Travel with{" "}
-              <span className="text-[var(--primary)]">Confidence</span>
+              Travel with <span className="text-primary">Confidence</span>
             </h2>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
             <div className="text-center group cursor-pointer">
-              <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-[var(--primary)]/10 flex items-center justify-center text-[var(--primary)] group-hover:bg-[var(--primary)] group-hover:text-white transition-all duration-300">
+              <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all duration-300">
                 <svg
                   className="w-7 h-7"
                   fill="none"
@@ -30,13 +29,13 @@ export default function WhyChooseUs() {
                 </svg>
               </div>
               <h3 className="text-lg font-bold mb-2">Curated Experiences</h3>
-              <p className="text-sm text-[var(--text-muted)]">
+              <p className="text-sm text-muted">
                 Hand-picked destinations and activities tailored to your
                 preferences.
               </p>
             </div>
             <div className="text-center group cursor-pointer">
-              <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-[var(--primary)]/10 flex items-center justify-center text-[var(--primary)] group-hover:bg-[var(--primary)] group-hover:text-white transition-all duration-300">
+              <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all duration-300">
                 <svg
                   className="w-7 h-7"
                   fill="none"
@@ -52,12 +51,12 @@ export default function WhyChooseUs() {
                 </svg>
               </div>
               <h3 className="text-lg font-bold mb-2">Best Price Guarantee</h3>
-              <p className="text-sm text-[var(--text-muted)]">
-                We match any competitor's price and offer exclusive deals.
+              <p className="text-sm text-muted">
+                We match any competitor&apos;s price and offer exclusive deals.
               </p>
             </div>
             <div className="text-center group cursor-pointer">
-              <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-[var(--primary)]/10 flex items-center justify-center text-[var(--primary)] group-hover:bg-[var(--primary)] group-hover:text-white transition-all duration-300">
+              <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all duration-300">
                 <svg
                   className="w-7 h-7"
                   fill="none"
@@ -73,12 +72,12 @@ export default function WhyChooseUs() {
                 </svg>
               </div>
               <h3 className="text-lg font-bold mb-2">24/7 Support</h3>
-              <p className="text-sm text-[var(--text-muted)]">
+              <p className="text-sm text-muted">
                 Round-the-clock assistance wherever you are in the world.
               </p>
             </div>
             <div className="text-center group cursor-pointer">
-              <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-[var(--primary)]/10 flex items-center justify-center text-[var(--primary)] group-hover:bg-[var(--primary)] group-hover:text-white transition-all duration-300">
+              <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all duration-300">
                 <svg
                   className="w-7 h-7"
                   fill="none"
@@ -94,7 +93,7 @@ export default function WhyChooseUs() {
                 </svg>
               </div>
               <h3 className="text-lg font-bold mb-2">Flexible Booking</h3>
-              <p className="text-sm text-[var(--text-muted)]">
+              <p className="text-sm text-muted">
                 Free cancellation and easy rebooking on most trips.
               </p>
             </div>

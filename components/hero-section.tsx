@@ -99,7 +99,7 @@ export default function Hero() {
                   <div className="rounded-2xl overflow-hidden">
                     <Image
                       width={400}
-                      height={300}
+                      height={400}
                       src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=400&h=400&fit=crop"
                       alt="Mountain destination"
                       className="w-full aspect-square object-cover hover:scale-105 transition-transform duration-500"
@@ -110,7 +110,7 @@ export default function Hero() {
                   <div className="rounded-2xl overflow-hidden">
                     <Image
                       width={400}
-                      height={300}
+                      height={400}
                       src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=400&h=400&fit=crop"
                       alt="City destination"
                       className="w-full aspect-square object-cover hover:scale-105 transition-transform duration-500"

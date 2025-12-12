@@ -22,8 +22,8 @@ export default function PopularDestinations() {
             <div className="destination-card cursor-pointer group">
               <div className="aspect-3/2 overflow-hidden relative">
                 <Image
-                  height={600}
-                  width={400}
+                  height={400}
+                  width={600}
                   src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=600&h=400&fit=crop"
                   alt="Santorini, Greece"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
@@ -72,8 +72,8 @@ export default function PopularDestinations() {
             <div className="destination-card cursor-pointer group">
               <div className="aspect-3/2 overflow-hidden relative">
                 <Image
-                  height={600}
-                  width={400}
+                  height={400}
+                  width={600}
                   src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&h=400&fit=crop"
                   alt="Bali, Indonesia"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
@@ -120,8 +120,8 @@ export default function PopularDestinations() {
             <div className="destination-card cursor-pointer group">
               <div className="aspect-3/2 overflow-hidden relative">
                 <Image
-                  height={600}
-                  width={400}
+                  height={400}
+                  width={600}
                   src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=600&h=400&fit=crop"
                   alt="Swiss Alps"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
@@ -170,8 +170,8 @@ export default function PopularDestinations() {
             <div className="destination-card cursor-pointer group">
               <div className="aspect-3/2 overflow-hidden relative">
                 <Image
-                  height={600}
-                  width={400}
+                  height={400}
+                  width={600}
                   src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=600&h=400&fit=crop"
                   alt="Tokyo, Japan"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"

@@ -107,7 +107,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="text-white/60 hover:text-[var(--secondary)] transition-colors cursor-pointer"
+                  className="text-white/60 hover:text-secondary transition-colors cursor-pointer"
                 >
                   About Us
                 </a>
@@ -115,7 +115,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="text-white/60 hover:text-[var(--secondary)] transition-colors cursor-pointer"
+                  className="text-white/60 hover:text-secondary transition-colors cursor-pointer"
                 >
                   Careers
                 </a>
@@ -123,7 +123,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="text-white/60 hover:text-[var(--secondary)] transition-colors cursor-pointer"
+                  className="text-white/60 hover:text-secondary transition-colors cursor-pointer"
                 >
                   Press
                 </a>
@@ -131,7 +131,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="text-white/60 hover:text-[var(--secondary)] transition-colors cursor-pointer"
+                  className="text-white/60 hover:text-secondary transition-colors cursor-pointer"
                 >
                   Blog
                 </a>
@@ -144,7 +144,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="text-white/60 hover:text-[var(--secondary)] transition-colors cursor-pointer"
+                  className="text-white/60 hover:text-secondary transition-colors cursor-pointer"
                 >
                   Help Center
                 </a>
@@ -152,7 +152,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="text-white/60 hover:text-[var(--secondary)] transition-colors cursor-pointer"
+                  className="text-white/60 hover:text-secondary transition-colors cursor-pointer"
                 >
                   Contact
                 </a>
@@ -160,7 +160,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="text-white/60 hover:text-[var(--secondary)] transition-colors cursor-pointer"
+                  className="text-white/60 hover:text-secondary transition-colors cursor-pointer"
                 >
                   FAQ
                 </a>
@@ -168,7 +168,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="text-white/60 hover:text-[var(--secondary)] transition-colors cursor-pointer"
+                  className="text-white/60 hover:text-secondary transition-colors cursor-pointer"
                 >
                   Travel Insurance
                 </a>

@@ -7,9 +7,9 @@ export default function StartPlanning() {
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
             Ready for Your Next
             <br />
-            <span className="text-[var(--primary)]">Adventure?</span>
+            <span className="text-primary">Adventure?</span>
           </h2>
-          <p className="text-lg text-[var(--text-muted)] mb-10 max-w-xl mx-auto">
+          <p className="text-lg text-muted mb-10 max-w-xl mx-auto">
             Start planning your dream trip today. Our travel experts are ready
             to help you create unforgettable memories.
           </p>
@@ -34,10 +34,10 @@ export default function StartPlanning() {
               Talk to Expert
             </button>
           </div>
-          <div className="flex flex-wrap justify-center gap-6 sm:gap-8 text-sm text-[var(--text-muted)]">
+          <div className="flex flex-wrap justify-center gap-6 sm:gap-8 text-sm text-muted">
             <span className="flex items-center gap-2">
               <svg
-                className="w-5 h-5 text-[var(--primary)]"
+                className="w-5 h-5 text-primary"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -53,7 +53,7 @@ export default function StartPlanning() {
             </span>
             <span className="flex items-center gap-2">
               <svg
-                className="w-5 h-5 text-[var(--primary)]"
+                className="w-5 h-5 text-primary"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -69,7 +69,7 @@ export default function StartPlanning() {
             </span>
             <span className="flex items-center gap-2">
               <svg
-                className="w-5 h-5 text-[var(--primary)]"
+                className="w-5 h-5 text-primary"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
