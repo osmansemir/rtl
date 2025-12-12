@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Testimonials() {
   return (
     <div>
@@ -72,7 +74,9 @@ export default function Testimonials() {
                 Santorini, Greece
               </div>
               <div className="flex items-center gap-3 pt-4 border-t border-[var(--border)]">
-                <img
+                <Image
+                  height={100}
+                  width={100}
                   src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop"
                   alt="Sarah Johnson"
                   className="w-10 h-10 rounded-full object-cover"
@@ -145,7 +149,7 @@ export default function Testimonials() {
                 Tokyo, Japan
               </div>
               <div className="flex items-center gap-3 pt-4 border-t border-[var(--border)]">
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
                   alt="Michael Chen"
                   className="w-10 h-10 rounded-full object-cover"
@@ -217,8 +221,9 @@ export default function Testimonials() {
                 Bali, Indonesia
               </div>
               <div className="flex items-center gap-3 pt-4 border-t border-[var(--border)]">
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop"
+                  width={100}
                   alt="Emma Williams"
                   className="w-10 h-10 rounded-full object-cover"
                 />
